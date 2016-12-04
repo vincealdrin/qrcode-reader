@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>qr</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main_content_wrap" class="container">
+    <div id="main_content">
+      <div class="col-md-7">
+        <div id="webcam" class="box">
+          <div id="reader"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="box">
+          <div class="info">
+            <span id="read_error">Scanning...</span>
+          </div>
+          <div class="list">
+            <ul id="dataList">
+            </ul>
+            <div class="actions">
+              <a id="dl" href="#" download="list.txt">Download List</a> /
+              <a id="clear" href="#">[Clear list]</a>
+            </div>
+            <img id="logo" src="assets/cg.png" alt="cg_logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="jquery-1.9.1.min.js"></script>
+  <script src="cookie.js"></script>
+  <script src="html5-qrcode.min.js"></script>
+  <!-- <script src="fetchival.min.js"></script> -->
+  <script src="main.js"></script>
+</body>
+</html>

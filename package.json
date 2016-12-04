@@ -1,0 +1,11 @@
+{
+    "name": "qr-reader",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.13.4",
+        "body-parser": "1.15.2"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
